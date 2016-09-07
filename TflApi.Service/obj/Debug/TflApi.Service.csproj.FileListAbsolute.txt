@@ -1,0 +1,13 @@
+D:\app1\TflApi\TflApi.Service\obj\Debug\TflApi.Service.csprojResolveAssemblyReference.cache
+D:\app1\TflApi\TflApi.Service\bin\Debug\TflApi.Service.dll
+D:\app1\TflApi\TflApi.Service\bin\Debug\TflApi.Service.pdb
+D:\app1\TflApi\TflApi.Service\bin\Debug\Newtonsoft.Json.dll
+D:\app1\TflApi\TflApi.Service\bin\Debug\TflApi.Models.dll
+D:\app1\TflApi\TflApi.Service\bin\Debug\TflApi.Repository.dll
+D:\app1\TflApi\TflApi.Service\bin\Debug\TflApi.Models.pdb
+D:\app1\TflApi\TflApi.Service\bin\Debug\TflApi.Repository.pdb
+D:\app1\TflApi\TflApi.Service\obj\Debug\TflApi.Service.dll
+D:\app1\TflApi\TflApi.Service\obj\Debug\TflApi.Service.pdb
+D:\app1\TflApi\TflApi.Service\bin\Debug\Tfl.Api.Presentation.Entities.dll
+D:\app1\TflApi\TflApi.Service\bin\Debug\TflApi.Service.dll.config
+D:\app1\TflApi\TflApi.Service\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,7 @@
+D:\app1\TflApi\TflApi.Repository\bin\Release\TflApi.Repository.dll
+D:\app1\TflApi\TflApi.Repository\bin\Release\TflApi.Repository.pdb
+D:\app1\TflApi\TflApi.Repository\bin\Release\Newtonsoft.Json.dll
+D:\app1\TflApi\TflApi.Repository\bin\Release\Newtonsoft.Json.xml
+D:\app1\TflApi\TflApi.Repository\obj\Release\TflApi.Repository.csprojResolveAssemblyReference.cache
+D:\app1\TflApi\TflApi.Repository\obj\Release\TflApi.Repository.dll
+D:\app1\TflApi\TflApi.Repository\obj\Release\TflApi.Repository.pdb

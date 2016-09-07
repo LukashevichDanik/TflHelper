@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFL Helper</title>
+    @Styles.Render("~/Content/css")
+</head>
+<body ng-app="app" ng-controller="MainCtrl">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/index" class="navbar-brand">TFL Helper</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/index">London's routes</a></li>
+                    <li><a href="/journey">Plan a journey</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        <div ng-view>
+            @RenderBody()
+        </div>
+        <hr />
+        <footer>
+            <p>&copy; Tfl.Api <a href="https://api.tfl.gov.uk/">https://api.tfl.gov.uk/</a></p>
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/angualr-route")
+    @Scripts.Render("~/bundles/ngLoader")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/main")
+    @Scripts.Render("~/bundles/index")
+    @Scripts.Render("~/bundles/stops")
+    @Scripts.Render("~/bundles/journey")
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALL0qK40GHib54J5nzcOwkdjWSp_NHzcM"></script>
+</body>
+</html>

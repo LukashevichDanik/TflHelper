@@ -1,0 +1,111 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.map-container{
+   width: 100%;
+   height:300px;
+   display:flex;
+   margin-top:30px;
+}
+
+.map{
+    width:600px;
+    height:300px;
+    margin:auto;
+}
+
+.table{
+    display:flex;
+    margin:auto;
+}
+
+.table_tr{
+    display:flex;
+}
+
+.table_tr>td{
+    flex-grow:1;
+    margin:auto;
+}
+
+.width33{
+    width:33%;
+}
+
+.paginator{
+    display: flex;
+    flex-direction:row;
+    margin:auto;
+}
+
+.paginator_item{
+    width:30px;
+    height:30px;
+    border: 1px solid;
+    display:flex;
+}
+
+.paginator_item>span{
+    margin:auto;
+}
+
+.paginator_item:hover {
+    background-color: #f9f9f9;
+}
+
+.main_container{
+    display:flex;
+    flex-direction:column;
+}
+tbody{
+    text-align:center;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width:900px;
+}
+
+tbody>tr>td{
+    width:300px;
+}
+tbody>tr>th{
+    text-align:center;
+    width:300px;
+}
+
+.title{
+    margin: auto;
+    margin-top: 30px;
+}
+
+.journey_buttons{
+    margin-top: 30px;
+    display:flex;
+}
+
+.journey_secces{
+    width: 100px;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.journey_clear{
+    width: 100px;
+    margin: auto;
+    margin-left: 10px;
+}

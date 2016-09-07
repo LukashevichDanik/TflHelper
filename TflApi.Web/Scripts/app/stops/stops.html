@@ -1,0 +1,32 @@
+﻿<div class="map-container">
+    <div id="map" class="map"></div>
+</div>
+<div nng-app="stops" ng-controller="StopsCtrl as stops" class="main_container">
+    <h1 class="title">Stop points(route №{{routeNumber}})</h1>
+    <table class="table-striped table">
+        <loader working="work"
+                disable-background="true"
+                message=""
+                template="1">
+        </loader>
+        <tr>
+            <th>Name</th>
+            <th>Indicator</th>
+            <th>Routes</th>
+        </tr>
+        <tr ng-repeat="point in stops.pageArray track by $index">
+            <td>
+                    {{point.commonName}}
+            </td>
+            <td>{{point.Indicator||"no Indicator"}}</td>
+            <td>
+                <a href="/stops/{{item.Name}}" ng-repeat="item in point.Lines track by $index">{{item.Name}}, </a>
+            </td>
+        </tr>
+    </table>
+    <div class="paginator">
+        <div ng-repeat="h in countPage track by $index" ng-click="stops.changeArray($index)" class="paginator_item">
+            <span>{{$index+1}}</span>
+        </div>
+    </div>
+</div>

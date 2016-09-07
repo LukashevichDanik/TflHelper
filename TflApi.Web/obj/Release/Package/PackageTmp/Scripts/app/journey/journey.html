@@ -1,0 +1,17 @@
+﻿<div ng-app="journey" ng-controller="JourneyCtrl as journey" class="main_container">
+    <h1 class="title">Plan a journey</h1>
+    <h4>To plan a route, you need be noted two points on the map. Then press the "Build route" and you will see the route options built on the map. If you entered the wrong points you will need to click the "Clear" button to clear the map.</h4>
+    <loader working="work"
+            disable-background="true"
+            message=""
+            template="1">
+    </loader>
+    <div class="map-container">
+        <div id="map" class="map"></div>
+    </div>
+    <div class="journey_buttons">
+        <input type="button" class="btn-success journey_secces" value="Build route" ng-click="journey.getResult()">
+        <input type="button" class="btn-danger journey_clear" value="Clear" ng-click="journey.clearMap()">
+    </div>
+
+</div>

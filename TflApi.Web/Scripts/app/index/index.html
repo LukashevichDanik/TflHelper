@@ -1,0 +1,33 @@
+﻿<div ng-app="index" ng-controller="IndexCtrl as index" class="main_container">
+    <loader working="works"
+            disable-background="true"
+            message=""
+            template="1">
+    </loader>
+    <h1 class="title">London's public transport</h1>
+    <table class="table-striped table">
+        <tr>
+            <th>Name</th>
+            <th> Mode Name</th>
+            <th>Type</th>
+        </tr>
+        <tr ng-repeat="item in index.pageArray">
+            <td>
+                <a href="/stops/{{item.Id}}">
+                    {{item.Name}}
+                </a>
+            </td>
+            <td>{{item.ModeName}}</td>
+            <td>
+                <p ng-repeat="i in item.ServiceTypes">
+                    {{i.Name}}
+                </p>
+            </td>
+        </tr>
+    </table>
+    <div class="paginator">
+        <div ng-repeat="h in countPage track by $index" ng-click="index.changeArray($index)" class="paginator_item">
+            <span>{{$index+1}}</span>
+        </div>
+    </div>
+</div>
